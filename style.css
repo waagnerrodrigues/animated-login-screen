@@ -1,38 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+        background-color: #fcf2e7;
+    
+}
+
 .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
 
-        .caixa-input {
-            color: #3B2212;
-            padding: 10px;
-            background-color: #C8AA8C;
-            font-size: 17px;
-        }
+.caixa-input {
+        color: #3B2212;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #C8AA8C;
+        font-size: 17px;
+        border-radius: 10px;
+        font-family: 'Righteous', cursive;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.24);
+}
 
-        .botao {
-            background-color: #6E461A;  
-            padding: 10px 20px;  
-            cursor: pointer;
-            height: 43px;
-        }
+.botao {
+        background-color: #C8AA8C;
+        display: flex;
+        margin: auto;
+        padding: 10px 20px;  
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        height: 28px;
+        border-radius: 10px;
+        font-family: 'Righteous', cursive;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.24);
+}
 
-        #imagem {
-            width: 180px;
-        }
+#imagem {
+        width: 180px;
+}
 
-        h1 {
-                margin-top: 20px;
-                margin-bottom: 10px;
-                text-align: center;
-                font-size: 60px;
-                font-family: sans-serif;
-                color: #986432;
-                box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
-        }
-
-        body {
-                background-color: #fce2c7;
-                
-        }
+h1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Righteous', cursive;
+        color: #986432;
+}
