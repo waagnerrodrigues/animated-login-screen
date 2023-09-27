@@ -11,7 +11,7 @@ body {
         align-items: center;
 }
 
-.caixa-input {
+.box-input {
         color: #3B2212;
         margin-top: 10px;
         padding: 10px;
@@ -22,7 +22,7 @@ body {
         box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
-.botao {
+.button {
         background-color: #C8AA8C;
         display: flex;
         margin: auto;
@@ -36,7 +36,7 @@ body {
         box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
-#imagem {
+#image {
         width: 180px;
 }
 

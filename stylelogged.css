@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3B2212;
+    background-color: #fcf2e7;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+
+.box {
+    background-color: #C8AA8C;
+    text-align: center;
+    padding: 0px 20px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.308);
+}
+
+.logged {
+    font-size: 0.4em;
+}

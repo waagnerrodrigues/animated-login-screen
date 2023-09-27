@@ -1,5 +1,5 @@
 function trocarImagemNome() {
-    let imagem = document.getElementById("imagem");
+    let imagem = document.getElementById("image");
     let campoNome = document.querySelector('input[type="text"]');
     if (campoNome.value === "") {
                 imagem.src = "imagens/ursoolhoaberto.png";
@@ -9,7 +9,7 @@ function trocarImagemNome() {
  }
 
 function trocarImagemSenha() {
-    let imagem = document.getElementById("imagem");
+    let imagem = document.getElementById("image");
     let campoSenha = document.querySelector('input[type="password"]');
     if (campoSenha.type === "password") {
         campoSenha.type = "password"; 
@@ -21,10 +21,19 @@ function trocarImagemSenha() {
 }
 
 function restaurarImagem() {
-    let imagem = document.getElementById("imagem");
+    let imagem = document.getElementById("image");
     let campoSenha = document.querySelector('input[type="password"]');
     if (campoSenha.type === "text") {
         campoSenha.type = "password"; 
         imagem.src = "imagens/ursoolhoaberto.png"; 
+    }
+}
+
+function redirect() {
+    let name = document.getElementById("nameInput").value;
+    if (name) {
+        window.location.href = "logged.html?name=" + encodeURIComponent(name);
+    } else {
+        alert("Por favor, digite seu nome antes de entrar.");
     }
 }
