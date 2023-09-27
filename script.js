@@ -1,4 +1,4 @@
-function trocarImagemNome() {
+function swapImageName() {
     let imagem = document.getElementById("image");
     let campoNome = document.querySelector('input[type="text"]');
     if (campoNome.value === "") {
@@ -8,7 +8,7 @@ function trocarImagemNome() {
     }
  }
 
-function trocarImagemSenha() {
+function swapImagePassword() {
     let imagem = document.getElementById("image");
     let campoSenha = document.querySelector('input[type="password"]');
     if (campoSenha.type === "password") {
@@ -20,7 +20,7 @@ function trocarImagemSenha() {
     }
 }
 
-function restaurarImagem() {
+function restoreImage() {
     let imagem = document.getElementById("image");
     let campoSenha = document.querySelector('input[type="password"]');
     if (campoSenha.type === "text") {
@@ -34,6 +34,6 @@ function redirect() {
     if (name) {
         window.location.href = "logged.html?name=" + encodeURIComponent(name);
     } else {
-        alert("Por favor, digite seu nome antes de entrar.");
+        alert("Please enter your name before proceeding.");
     }
 }
